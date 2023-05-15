@@ -1,9 +1,5 @@
 """
-Helper functions for the implementation of the Riemannian logarithm on flag manifolds.
-
-All the details can be found in [Szwagier2023].
-
-Lead author: Tom Szwagier.
+Authors' implementation of [Szwagier2023].
 
 References
 ----------
