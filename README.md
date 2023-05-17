@@ -1,5 +1,5 @@
 # flag-manifold-distance
-Authors' implementation of the paper "Rethinking the Riemannian logarithm on flag manifolds as an orthogonal alignment problem", accepted with oral to the [GSI'23 6th International Conference on Geometric Science of Information](https://conference-gsi.org/).
+Authors' implementation of the paper "Rethinking the Riemannian Logarithm on Flag Manifolds as an Orthogonal Alignment Problem", accepted with oral to the [GSI'23 6th International Conference on Geometric Science of Information](https://conference-gsi.org/).
 
 ![Illustrative summary of the paper](illustrative_summary.png)
 
