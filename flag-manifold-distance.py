@@ -3,9 +3,8 @@ Authors' implementation of [Szwagier2023].
 
 References
 ----------
-.. [Szwagier2023] T. Szwagier, X. Pennec.
-    “Rethinking the Riemannian logarithm on flag manifolds as an orthogonal alignment problem.”
-    To appear: GSI'23 6th International Conference on Geometric Science of Information.
+.. [Szwagier2023] Szwagier, T., Pennec, X. (2023). Rethinking the Riemannian Logarithm on Flag Manifolds as an Orthogonal Alignment Problem. 
+In: Nielsen, F., Barbaresco, F. (eds) Geometric Science of Information. GSI 2023. Lecture Notes in Computer Science, vol 14071. Springer, Cham. https://doi.org/10.1007/978-3-031-38271-0_37
 """
 
 from geomstats.geometry.skew_symmetric_matrices import SkewSymmetricMatrices
