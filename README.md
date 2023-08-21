@@ -17,19 +17,18 @@ pip install -r requirements.txt
 
 
 ### Citation
-The paper will appear in the Springer Proceedings of the Geometric Science of Information 6th International Conference, GSI 2023.
-For now, if you use this work, you can cite the preprint version:
 ```bibtex
-@unpublished{szwagier_rethinking_2023,
-  TITLE = {{Rethinking the Riemannian Logarithm on Flag Manifolds as an Orthogonal Alignment Problem}},
-  AUTHOR = {Szwagier, Tom and Pennec, Xavier},
-  URL = {https://inria.hal.science/hal-04100534},
-  NOTE = {working paper or preprint},
-  YEAR = {2023},
-  MONTH = May,
-  KEYWORDS = {Flag manifolds ; Riemannian logarithm ; Orthogonal alignment ; Procrustes analysis},
-  PDF = {https://inria.hal.science/hal-04100534/file/GSI-119.pdf},
-  HAL_ID = {hal-04100534},
-  HAL_VERSION = {v1},
+@InProceedings{szwagier_flaglog_2023,
+author="Szwagier, Tom
+and Pennec, Xavier",
+editor="Nielsen, Frank
+and Barbaresco, Fr{\'e}d{\'e}ric",
+title="Rethinking the Riemannian Logarithm on Flag Manifolds as an Orthogonal Alignment Problem",
+booktitle="Geometric Science of Information",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="375--383",
+abstract="Flags are sequences of nested linear subspaces of increasing dimension. They belong to smooth manifolds generalizing Grassmannians and bring a richer multi-scale point of view to the traditional subspace methods in statistical analysis. Hence, there is an increasing interest in generalizing the formulae and statistical methods already developed for Grassmannians to flag manifolds. In particular, it is critical to compute accurately and efficiently the geodesic distance and the logarithm due to their fundamental importance in geometric statistics. However, there is no explicit expression known in the case of flags. In this work, we exploit the homogeneous quotient space structure of flag manifolds and rethink the geodesic endpoint problem as an alignment of orthogonal matrices on their equivalence classes. The relaxed problem with the Frobenius metric surprisingly enjoys an explicit solution. This is the key to modify a previously proposed algorithm. We show that our explicit alignment step brings drastic improvements in accuracy, speed and radius of convergence, in addition to overcoming the combinatorial issues raised by the non-connectedness of the equivalence classes.",
+isbn="978-3-031-38271-0"
 }
-```
