@@ -1,10 +1,10 @@
 # flag-manifold-distance
-Authors' implementation of the paper ["Rethinking the Riemannian Logarithm on Flag Manifolds as an Orthogonal Alignment Problem"](https://inria.hal.science/hal-04100534), accepted with oral to the [GSI'23 6th International Conference on Geometric Science of Information](https://conference-gsi.org/).
+Authors' implementation of the paper ["Rethinking the Riemannian Logarithm on Flag Manifolds as an Orthogonal Alignment Problem"](https://link.springer.com/chapter/10.1007/978-3-031-38271-0_37), accepted with oral to the [GSI'23 6th International Conference on Geometric Science of Information](https://conference-gsi.org/).
 
 ![Illustrative summary of the paper](illustrative_summary.png)
 
 ### Installation
-You can create a conda environment and then install the required packages by running the followig commands on the Anaconda prompt.
+You can create a conda environment and then install the required packages by running the following commands on the Anaconda prompt.
 ```python
 conda create -n flag-manifold-distance python=3.9
 pip install -r requirements.txt
